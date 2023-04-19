@@ -12,3 +12,4 @@ Le programme effectue des vérifications sur les entrées pour s'assurer que les
 Dans l'onglet Historique, l'utilisateur peut voir les conversions précédentes effectuées dans l'application.
 
 Le programme stocke les taux de change dans un fichier JSON pour que les données soient conservées même après la fermeture de l'application.
+.
