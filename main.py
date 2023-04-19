@@ -7,6 +7,8 @@ import json
 #My sized fonts
 DEFAULT_FONT_STYLE = ("Calibri", 14)
 
+
+
 # ---------------------------- Functions ------------------------------- #
 
 def convert():
@@ -75,7 +77,7 @@ gui.geometry("400x510")
 gui.configure(bg='#5E5E5E')
 gui.resizable(False, False)
 
-file = open('dataa.json')
+file = open('data.json')
 rate_from_USD_to=json.load(file)
 currencies = [i for i in rate_from_USD_to]
 
@@ -130,6 +132,9 @@ currency_out.grid(row=2, column=0, padx=50, pady=15)
 # Create a convert button
 convert_button = ttk.Button(currencies_L_frame, text="Convert", command=convert)
 convert_button.grid(row=3, column=0, padx=10, pady=10)
+
+
+
 
 
 #Create my BOTTOM Frame
